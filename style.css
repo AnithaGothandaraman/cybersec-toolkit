@@ -1,0 +1,53 @@
+body {
+  background: #0d0d0d;
+  color: #00ff9f;
+  font-family: Consolas, monospace;
+  padding: 20px;
+}
+
+h2 {
+  color: #00ff9f;
+  border-bottom: 1px solid #00ff9f;
+  padding-bottom: 5px;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  background: black;
+  border: 1px solid #00ff9f;
+  color: #00ff9f;
+}
+
+button {
+  background: black;
+  border: 1px solid #00ff9f;
+  color: #00ff9f;
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00ff9f;
+  color: black;
+}
+
+#strengthFill {
+  height: 8px;
+  width: 0%;
+  margin-top: 5px;
+  transition: 0.3s;
+}
+
+#strengthLabel {
+  margin-top: 5px;
+}
+
+#hashOutput {
+  margin-top: 10px;
+  word-wrap: break-word;
+  border: 1px dashed #00ff9f;
+  padding: 10px;
+}

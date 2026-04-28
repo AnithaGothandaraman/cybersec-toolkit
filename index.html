@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>CyberSec Toolkit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h2>Password Strength</h2>
+  <input type="password" id="passInput"
+    oninput="analyzePassword(this.value)"
+    placeholder="Enter password..." />
+
+  <div id="strengthFill"></div>
+  <div id="strengthLabel"></div>
+
+  <hr>
+
+  <h2>Hash Generator</h2>
+  <input type="text" id="hashInput" placeholder="Enter text"/>
+  <button onclick="generateHash()">Generate</button>
+  <div id="hashOutput"></div>
+  
+<button onclick="copyHash()">Copy Hash</button>
+
+  <hr>
+
+  <h2>Base64 Tool</h2>
+  <input type="text" id="b64Input" placeholder="Enter text"/>
+  <button onclick="b64Encode()">Encode</button>
+  <button onclick="b64Decode()">Decode</button>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
